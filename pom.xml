@@ -5,15 +5,13 @@
     <artifactId>cubegame</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
-    <profiles>
-        <profile>
-            <id>test</id>
-        </profile>
-    </profiles>
     <properties>
         <lwjgl.version>3.3.2</lwjgl.version>
         <lwjgl.natives>natives-windows</lwjgl.natives>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+
 
     <dependencyManagement>
         <dependencies>
